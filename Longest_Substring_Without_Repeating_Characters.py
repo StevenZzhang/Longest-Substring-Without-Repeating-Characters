@@ -1,5 +1,5 @@
 class Solution:
-    def lengthOfLongestSubstring1(self, s: str) -> int:
+    def lengthOfLongestSubstring(self, s: str) -> int:
         n = len(s)
         res = left  = right = 0
         m = {}
